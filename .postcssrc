@@ -1,0 +1,23 @@
+{
+  "modules": false,
+  "plugins": {
+    "autoprefixer": {
+      "browsers": [
+        ">1%",
+        "last 4 versions",
+        "Firefox ESR",
+        "not ie < 9"
+      ],
+      "flexbox": "no-2009"
+    },
+    "postcss-px-to-viewport":{
+      viewportWidth: 375,
+      viewportHeight: 667,
+      unitPrecision: 6,
+      viewportUnit: 'vw',
+      selectorBlackList: [],
+      minPixelValue: 1,
+      mediaQuery: false
+    }
+  }
+}

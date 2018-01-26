@@ -22,7 +22,35 @@
   font-size: large;
 }
 
+.Flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Viewport-unit {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  animation: Viewport-ani 600ms ease-in-out alternate-reverse infinite;
+  transform: translate(50px, 50px) scale(0.7) rotate(30deg);
+}
+
+@keyframes Viewport-ani {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translate(50px, 0px);
+  }
+}
+
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

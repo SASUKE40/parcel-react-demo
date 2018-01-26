@@ -13,6 +13,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <div className="Flex-container">This is a Flex Container.</div>
+        <div className="Viewport-unit" />
       </div>
     );
   }
