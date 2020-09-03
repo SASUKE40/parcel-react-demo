@@ -19,7 +19,7 @@
     "parcel-bundler": "^1.5.1",
     "postcss-modules": "^1.1.0",
     "postcss-px-to-viewport": "0.0.3",
-    "serve": "^6.4.9"
+    "serve": "^10.1.2"
   },
   "dependencies": {
     "react": "^16.2.0",
